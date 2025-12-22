@@ -1,11 +1,15 @@
-# PACKAGE.broker
-
-**Open source Composer repository proxy for private PHP packages**
-
-> Enterprise-grade private package management for PHP — serverless, self-hosted, free.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/package-broker/docs/main/static/img/logo.svg" alt="PACKAGE.broker Logo" width="120" height="120">
+  
+  # PACKAGE.broker
+  
+  **Open source Composer repository proxy for private PHP packages**
+  
+  > Enterprise-grade private package management for PHP — serverless, self-hosted, free.
+</div>
 
 ![License](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)
-![GitHub Stars](https://img.shields.io/badge/github-stars-package--broker%2Fserver?style=social)
+![GitHub Stars](https://img.shields.io/github/stars/package-broker/server?style=social)
 ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-orange?logo=cloudflare)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/lbajsarowicz?style=social)](https://github.com/sponsors/lbajsarowicz)
@@ -80,3 +84,4 @@ AGPL-3.0 License — see [LICENSE](https://github.com/package-broker/server/blob
 <p align="center">
   <sub>If this project saves you money, consider supporting its development ☕</sub>
 </p>
+
