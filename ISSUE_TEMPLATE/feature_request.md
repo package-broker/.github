@@ -1,20 +1,31 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: enhancement
-assignees: ''
-
+about: Suggest a new feature or major improvement
+title: "[Feature]: "
+labels: ""
+assignees: ""
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## Summary
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+## Problem
+What user pain / business goal does this address?
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+## Proposal
+What should we build? Include a brief UX/API sketch if helpful.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+## Scope
+- Area: server / docs
+- Platform: Cloudflare / neutral
+- Component: CLI / main / UI / auth / storage / docs-site / other
+
+## Acceptance criteria
+- [ ] 
+- [ ] 
+
+## Out of scope
+
+## Rollout / upgrade notes
+
+## Additional context
+Links, screenshots, prior art, etc.
