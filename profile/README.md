@@ -33,6 +33,8 @@ PACKAGE.broker is a lightweight, self-hosted Composer proxy running on Cloudflar
 |------------|-------------|
 | [**server**](https://github.com/package-broker/server) | Main application (Cloudflare Workers & Node.js) |
 | [**docs**](https://github.com/package-broker/docs) | Documentation website |
+| [**cloudflare-deploy-action**](https://github.com/package-broker/cloudflare-deploy-action) | Reusable GitHub Action for deploying PACKAGE.broker to Cloudflare Workers |
+| [**cloudflare-template**](https://github.com/package-broker/cloudflare-template) | Template repository for one-click Cloudflare Workers deployment |
 
 ## 🚀 Quick Start
 
