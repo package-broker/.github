@@ -6,6 +6,8 @@ Welcome to the PACKAGE.broker organization! This organization hosts all reposito
 
 - **[server](https://github.com/package-broker/server)** - Main application server (Cloudflare Workers and Node.js)
 - **[docs](https://github.com/package-broker/docs)** - Documentation website (Docusaurus)
+- **[cloudflare-deploy-action](https://github.com/package-broker/cloudflare-deploy-action)** - Reusable GitHub Action for deploying PACKAGE.broker to Cloudflare Workers
+- **[cloudflare-template](https://github.com/package-broker/cloudflare-template)** - Template repository for one-click Cloudflare Workers deployment
 
 ## Contributing
 
