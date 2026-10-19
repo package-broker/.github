@@ -1,19 +1,16 @@
-# Security Policy
+# Security policy
 
-## Supported Versions
+## Reporting a vulnerability
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Report vulnerabilities for Package Broker 2.0 through GitHub private vulnerability reporting in the [broker](https://github.com/package-broker/broker/security/advisories/new) repository. For 1.x and the other repositories follow the [server security policy](https://github.com/package-broker/server/blob/main/SECURITY.md).
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 0.1.x   | :white_check_mark: |
-| < 0.1   | :x:                |
+Include the affected package and version or commit, the runtime (Cloudflare Workers or Node), steps to reproduce, and the impact you see. You will get an acknowledgement within five working days.
 
-## Reporting a Vulnerability
+## Supported versions
 
-We take security seriously. If you discover a security vulnerability, please do **NOT** open an issue.
+| Line | Repository | Status |
+| ---- | ---------- | ------ |
+| Package Broker 2.0 | [broker](https://github.com/package-broker/broker) | No tagged release yet; reports against `main` are accepted |
+| Package Broker 1.x | [server](https://github.com/package-broker/server) | Security fixes only |
 
-Instead, please email [INSERT EMAIL ADDRESS] with the details. We will acknowledge your report within 24 hours and work with you to resolve the issue.
-
-We appreciate your responsible disclosure.
+The full scope and exclusions for 2.0 are in the [broker security policy](https://github.com/package-broker/broker/blob/main/SECURITY.md), which applies to that repository instead of this file.

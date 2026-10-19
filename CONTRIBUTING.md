@@ -1,55 +1,20 @@
-# Contributing to PACKAGE.broker
+# Contributing to Package Broker
 
-Thank you for your interest in contributing to PACKAGE.broker! We welcome contributions from the community to help make this project better.
+Every repository in this organization follows the Code of Conduct in this repository. A repository's own `CONTRIBUTING.md` and `SECURITY.md` take precedence over the files here when it has them.
 
-## Getting Started
+## Package Broker 2.0
 
-1.  **Fork the repository** on GitHub (e.g., `package-broker/server` or `package-broker/docs`).
-2.  **Clone your fork** locally:
-    ```bash
-    git clone https://github.com/your-username/package-broker-server.git
-    cd package-broker-server
-    ```
-    Or for the docs repository:
-    ```bash
-    git clone https://github.com/your-username/package-broker-docs.git
-    cd package-broker-docs
-    ```
-3.  **Install dependencies**:
-    ```bash
-    npm install
-    ```
-4.  **Set up your environment** (for `package-broker/server`):
-    - Copy `env.example` to `.env` or set up your `wrangler.toml` vars.
-    - Create a local D1 database: `npx wrangler d1 create composer-proxy-db`.
-    - Apply migrations: `npx wrangler d1 migrations apply composer-proxy-db --local`.
+The [broker](https://github.com/package-broker/broker) repository is the 2.0 codebase. Its [CONTRIBUTING.md](https://github.com/package-broker/broker/blob/main/CONTRIBUTING.md) covers local setup for both runtimes (Miniflare needs no Cloudflare account), the checks a pull request must pass, and where architecture decisions live. In short:
 
-## Development Workflow
+- Open an issue first for anything beyond a small fix.
+- Run `pnpm check` before you open a pull request.
+- Sign off every commit with `git commit -s`. Contributions are accepted under the repository licence (AGPL-3.0-only) and the [Developer Certificate of Origin](https://developercertificate.org/).
+- Pull request titles follow [Conventional Commits](https://www.conventionalcommits.org/) with the package directory as scope. Pull requests target `main` and are squash-merged.
 
-- **Branching**: Create a new branch for your feature or bugfix (e.g., `feature/awesome-new-feature` or `fix/login-bug`).
-- **Code Style**: We use ESLint and Prettier. Run `npm run lint` to check for style issues.
-- **Testing**:
-    - **Unit Tests**: Run `npm test` to run Vitest unit tests.
-    - **Type Checking**: Run `npm run typecheck` to ensure type safety.
-    - **E2E Tests**: (Optional) Run `npm run test:e2e` for end-to-end testing with Playwright.
+## Package Broker 1.x and other repositories
 
-## Submitting a Pull Request
+The [server](https://github.com/package-broker/server) repository (1.x) accepts security fixes only. For the other repositories, open a pull request against `main` and describe the problem and the approach; where a repository has its own `CONTRIBUTING.md`, it applies.
 
-1.  Ensure all tests pass and there are no linting errors.
-2.  Push your branch to your fork.
-3.  Open a Pull Request against the `main` branch of the appropriate repository.
-4.  Provide a clear description of your changes and reference any related issues.
+## Reporting bugs and requesting features
 
-## Reporting Bugs
-
-Please use the [Bug Report Template](.github/ISSUE_TEMPLATE/bug_report.md) to report bugs. Be sure to include:
-- A clear description of the issue.
-- Steps to reproduce.
-- Expected vs. actual behavior.
-- Logs or screenshots if applicable.
-
-## Feature Requests
-
-Have an idea? Use the [Feature Request Template](.github/ISSUE_TEMPLATE/feature_request.md) to suggest new features.
-
-Thank you for contributing!
+Use the issue forms of the repository concerned. Do not report security problems in public issues; follow [SECURITY.md](SECURITY.md).

@@ -1,26 +1,31 @@
-# PACKAGE.broker Organization
+# Package Broker organization
 
-Welcome to the PACKAGE.broker organization! This organization hosts all repositories related to the PACKAGE.broker project.
+This repository holds the community health files that GitHub applies to every repository in the organization that does not define its own: the Code of Conduct, the security policy, contributing notes, the pull request template and issue templates. The `broker` repository defines its own and overrides them.
 
 ## Repositories
 
-- **[server](https://github.com/package-broker/server)** - Main application server (Cloudflare Workers and Node.js)
-- **[docs](https://github.com/package-broker/docs)** - Documentation website (Docusaurus)
-- **[cloudflare-deploy-action](https://github.com/package-broker/cloudflare-deploy-action)** - Reusable GitHub Action for deploying PACKAGE.broker to Cloudflare Workers
-- **[cloudflare-template](https://github.com/package-broker/cloudflare-template)** - Template repository for one-click Cloudflare Workers deployment
+- **[broker](https://github.com/package-broker/broker)** - Package Broker 2.0: Composer and npm registry broker for Cloudflare Workers and Node (AGPL-3.0)
+- **[server](https://github.com/package-broker/server)** - Package Broker 1.x (security fixes only)
+- **[docs](https://github.com/package-broker/docs)** - Documentation website
+- **[cloudflare-deploy-action](https://github.com/package-broker/cloudflare-deploy-action)** - GitHub Action that deploys 1.x to Cloudflare Workers
+- **[cloudflare-template](https://github.com/package-broker/cloudflare-template)** - Template repository for deploying 1.x to Cloudflare Workers
+
+## Issue templates
+
+The issue templates in this repository serve the 1.x repositories. The `broker` repository has its own forms.
 
 ## Contributing
 
-Please see our [Contributing Guidelines](CONTRIBUTING.md) for information on how to contribute to our projects.
+See the [contributing guidelines](CONTRIBUTING.md). Contributions to 2.0 are accepted under the Developer Certificate of Origin.
 
 ## Code of Conduct
 
-This project adheres to a [Code of Conduct](CODE_OF_CONDUCT.md). Please read it before participating.
+Everyone taking part follows the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Security
 
-For security concerns, please see our [Security Policy](SECURITY.md).
+See the [security policy](SECURITY.md).
 
-## License
+## Licence
 
-All repositories in this organization are licensed under AGPL-3.0 unless otherwise specified.
+Repositories in this organization are licensed under AGPL-3.0 unless stated otherwise.
