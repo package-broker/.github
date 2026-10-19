@@ -2,7 +2,7 @@
 
 ## Reporting a vulnerability
 
-Report vulnerabilities through GitHub private vulnerability reporting: open the Security tab of the affected repository and choose "Report a vulnerability". Do not open a public issue for a security problem.
+Report vulnerabilities for Package Broker 2.0 through GitHub private vulnerability reporting in the [broker](https://github.com/package-broker/broker/security/advisories/new) repository. For 1.x and the other repositories follow the [server security policy](https://github.com/package-broker/server/blob/main/SECURITY.md).
 
 Include the affected package and version or commit, the runtime (Cloudflare Workers or Node), steps to reproduce, and the impact you see. You will get an acknowledgement within five working days.
 

@@ -10,6 +10,10 @@ This repository holds the community health files that GitHub applies to every re
 - **[cloudflare-deploy-action](https://github.com/package-broker/cloudflare-deploy-action)** - GitHub Action that deploys 1.x to Cloudflare Workers
 - **[cloudflare-template](https://github.com/package-broker/cloudflare-template)** - Template repository for deploying 1.x to Cloudflare Workers
 
+## Issue templates
+
+The issue templates in this repository serve the 1.x repositories. The `broker` repository has its own forms.
+
 ## Contributing
 
 See the [contributing guidelines](CONTRIBUTING.md). Contributions to 2.0 are accepted under the Developer Certificate of Origin.

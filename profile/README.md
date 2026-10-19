@@ -16,6 +16,8 @@ Package Broker 2.0 sits between your projects and the registries they install fr
 - OIDC groups mapped to projects, for example from Dex or Cloudflare Access.
 - Token hygiene by default: 90-day personal access tokens, read-only single-project CI tokens, and re-authentication before a token is issued.
 
+2.0 is pre-release: no tagged release yet, and the API still changes.
+
 ## Repositories
 
 | Repository | Description |

@@ -1,6 +1,6 @@
 # Contributing to Package Broker
 
-Thank you for your interest in contributing. Every repository in this organization follows the Code of Conduct and the security policy in this repository, and each repository's own `CONTRIBUTING.md` takes precedence over this file.
+Every repository in this organization follows the Code of Conduct in this repository. A repository's own `CONTRIBUTING.md` and `SECURITY.md` take precedence over the files here when it has them.
 
 ## Package Broker 2.0
 
@@ -13,7 +13,7 @@ The [broker](https://github.com/package-broker/broker) repository is the 2.0 cod
 
 ## Package Broker 1.x and other repositories
 
-The [server](https://github.com/package-broker/server) repository (1.x) accepts security fixes only. For the other repositories, read the `CONTRIBUTING.md` in the repository you are changing, open a pull request against `main`, and describe the problem and the approach.
+The [server](https://github.com/package-broker/server) repository (1.x) accepts security fixes only. For the other repositories, open a pull request against `main` and describe the problem and the approach; where a repository has its own `CONTRIBUTING.md`, it applies.
 
 ## Reporting bugs and requesting features
 
