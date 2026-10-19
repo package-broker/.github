@@ -59,7 +59,10 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at [INSERT EMAIL ADDRESS].
+reported to the community leaders responsible for enforcement by contacting the
+maintainers privately through GitHub. Do not report conduct concerns in a public
+issue, pull request or discussion, and do not use the security vulnerability
+report form, which is for security issues only (see [SECURITY.md](SECURITY.md)).
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the

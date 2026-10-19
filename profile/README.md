@@ -1,89 +1,35 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/package-broker/docs/main/static/img/logo.svg" alt="PACKAGE.broker Logo" width="120" height="120">
-  
-  # PACKAGE.broker
-  
-  **Open source Composer repository proxy for private PHP packages**
-  
-  > Enterprise-grade private package management for PHP — serverless, self-hosted, free.
+
+# Package Broker
+
+**A package registry broker for Composer and npm, self-hosted on Cloudflare Workers or Docker.**
+
 </div>
 
-![License](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)
-![GitHub Stars](https://img.shields.io/github/stars/package-broker/server?style=social)
-![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-orange?logo=cloudflare)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/lbajsarowicz?style=social)](https://github.com/sponsors/lbajsarowicz)
+## What it is
 
-## 🌟 What is PACKAGE.broker?
+Package Broker 2.0 sits between your projects and the registries they install from. It gives each project its own view of your packages and its own upstream credentials, and puts Composer and npm behind one token policy.
 
-PACKAGE.broker is a lightweight, self-hosted Composer proxy running on Cloudflare's edge network. It provides enterprise-grade private package management without the enterprise price tag.
+- Per-project isolation by SSO group, with per-project upstream credentials.
+- Composer and npm under one token policy.
+- Self-hosted on Cloudflare Workers or Docker, licensed under AGPL-3.0.
+- OIDC groups mapped to projects, for example from Dex or Cloudflare Access.
+- Token hygiene by default: 90-day personal access tokens, read-only single-project CI tokens, and re-authentication before a token is issued.
 
-### Key Features
-
-- 💰 **Zero Infrastructure Cost** - Runs on Cloudflare's free tier
-- 🌍 **Global Edge Network** - 300+ edge locations worldwide
-- 🔒 **Enterprise Security** - AES-256-GCM encryption, token-based auth
-- 🛠️ **True Serverless** - No Docker, no Kubernetes, no VM maintenance
-- 📦 **Unlimited Private Packages** - Host as many as you need
-- 🎯 **Composer 2.x Optimized** - Fast, secure, modern
-
-## 📚 Repositories
+## Repositories
 
 | Repository | Description |
-|------------|-------------|
-| [**server**](https://github.com/package-broker/server) | Main application (Cloudflare Workers & Node.js) |
+| ---------- | ----------- |
+| [**broker**](https://github.com/package-broker/broker) | Package Broker 2.0, in pre-release: no tagged release yet |
+| [**server**](https://github.com/package-broker/server) | Package Broker 1.x, security fixes only |
 | [**docs**](https://github.com/package-broker/docs) | Documentation website |
-| [**cloudflare-deploy-action**](https://github.com/package-broker/cloudflare-deploy-action) | Reusable GitHub Action for deploying PACKAGE.broker to Cloudflare Workers |
-| [**cloudflare-template**](https://github.com/package-broker/cloudflare-template) | Template repository for one-click Cloudflare Workers deployment |
+| [**cloudflare-deploy-action**](https://github.com/package-broker/cloudflare-deploy-action) | GitHub Action that deploys 1.x to Cloudflare Workers |
+| [**cloudflare-template**](https://github.com/package-broker/cloudflare-template) | Template repository for deploying 1.x to Cloudflare Workers |
 
-## 🚀 Quick Start
+## Contributing
 
-```bash
-# Install from GitHub Packages
-npm install @package-broker/cli @package-broker/main
+Contributions to 2.0 are welcome under the Developer Certificate of Origin. Start with the [contributing guidelines](https://github.com/package-broker/broker/blob/main/CONTRIBUTING.md), the [governance notes](https://github.com/package-broker/broker/blob/main/GOVERNANCE.md) and the [Code of Conduct](https://github.com/package-broker/.github/blob/main/CODE_OF_CONDUCT.md). Report vulnerabilities privately, as described in the [security policy](https://github.com/package-broker/.github/blob/main/SECURITY.md).
 
-# Initialize configuration
-npx package-broker init
+## Licence
 
-# Deploy to Cloudflare
-npx wrangler deploy
-```
-
-See the [server repository](https://github.com/package-broker/server) for detailed installation instructions.
-
-## 💖 Support This Project
-
-This project is **free and open source**, built with love during evenings and weekends.
-
-If it saves your team money or makes your workflow better, please consider supporting its continued development:
-
-<a href="https://github.com/sponsors/lbajsarowicz">
-  <img src="https://img.shields.io/badge/Sponsor-❤️-ea4aaa?style=for-the-badge&logo=github" alt="Sponsor on GitHub">
-</a>
-
-## 📖 Documentation
-
-- [Installation Guide](https://github.com/package-broker/docs)
-- [API Reference](https://github.com/package-broker/server#api-reference)
-- [Contributing Guidelines](https://github.com/package-broker/.github/blob/main/CONTRIBUTING.md)
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](https://github.com/package-broker/.github/blob/main/CONTRIBUTING.md) to get started.
-
-## 📄 License
-
-AGPL-3.0 License — see [LICENSE](https://github.com/package-broker/server/blob/main/LICENSE) for details.
-
----
-
-<p align="center">
-  <a href="https://github.com/sponsors/lbajsarowicz">
-    <img src="https://img.shields.io/badge/Sponsor_this_project-❤️-ea4aaa?style=for-the-badge&logo=github" alt="Sponsor">
-  </a>
-</p>
-
-<p align="center">
-  <sub>If this project saves you money, consider supporting its development ☕</sub>
-</p>
-
+AGPL-3.0, see the [broker licence](https://github.com/package-broker/broker/blob/main/LICENSE).

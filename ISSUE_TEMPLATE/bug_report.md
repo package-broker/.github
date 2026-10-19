@@ -16,10 +16,10 @@ assignees: ""
 3. 
 
 ## Environment
-- PACKAGE.broker version:
-- Deployment (Cloudflare/Docker/Kubernetes):
+- Package Broker version or commit:
+- Hosting (Cloudflare Workers, Docker on Node, other):
 - OS:
-- Node.js version (if relevant):
+- Runtime version (Workers compatibility date or Node version):
 
 ## Logs / screenshots
 Paste relevant logs (redact secrets).

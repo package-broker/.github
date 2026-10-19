@@ -1,8 +1,8 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
-  - name: PACKAGE.broker documentation
+  - name: Package Broker documentation
     url: https://package.broker/docs/
-    about: Read the docs (installation, configuration, troubleshooting)
-  - name: Security policy
+    about: Installation, configuration and troubleshooting
+  - name: Report a security vulnerability
     url: https://github.com/package-broker/.github/blob/main/SECURITY.md
-    about: Please report security issues responsibly
+    about: Report vulnerabilities privately through the repository's Security tab. Do not open a public issue.
