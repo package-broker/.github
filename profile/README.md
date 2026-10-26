@@ -3,7 +3,7 @@
 
 # Package Broker
 
-Package Broker is a self-hosted, open-source (AGPL-3.0-only) private Composer and npm registry for Magento and PHP agencies. It runs on Cloudflare Workers or your own Node host with Docker.
+Package Broker is a self-hosted, open-source (AGPL-3.0-only) private Composer and npm registry with role-based access control per project. It runs on Cloudflare Workers or your own Node host with Docker.
 
 [package.broker](https://package.broker) · [Quickstart](https://package.broker/docs/getting-started/quickstart-cloudflare) · [Compare](https://package.broker/compare) · [Security](https://package.broker/security)
 
