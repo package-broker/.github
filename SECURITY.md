@@ -1,19 +1,11 @@
-# Security Policy
+# Security policy
 
-## Supported Versions
+## Reporting a vulnerability
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Do not open a public issue for a security problem. Report it through GitHub private vulnerability reporting on the affected repository (Security tab, "Report a vulnerability"), or by e-mail to security@package.broker.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 0.1.x   | :white_check_mark: |
-| < 0.1   | :x:                |
+The policy for Package Broker 2.0, including scope and acknowledgement time, is in [package-broker/broker SECURITY.md](https://github.com/package-broker/broker/blob/main/SECURITY.md) and on [package.broker/security](https://package.broker/security).
 
-## Reporting a Vulnerability
+## Supported versions
 
-We take security seriously. If you discover a security vulnerability, please do **NOT** open an issue.
-
-Instead, please email [INSERT EMAIL ADDRESS] with the details. We will acknowledge your report within 24 hours and work with you to resolve the issue.
-
-We appreciate your responsible disclosure.
+Package Broker 2.0 has no tagged release yet; reports against the `main` branch of `package-broker/broker` are accepted. PACKAGE.broker 1.x is end of life and receives no security fixes.

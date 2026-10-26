@@ -1,55 +1,7 @@
-# Contributing to PACKAGE.broker
+# Contributing
 
-Thank you for your interest in contributing to PACKAGE.broker! We welcome contributions from the community to help make this project better.
+Package Broker 2.0 is developed in [package-broker/broker](https://github.com/package-broker/broker). Read its [CONTRIBUTING.md](https://github.com/package-broker/broker/blob/main/CONTRIBUTING.md) before you open a pull request: commits need a Developer Certificate of Origin sign-off (`git commit -s`).
 
-## Getting Started
+Website changes go to [package-broker/docs](https://github.com/package-broker/docs). Product documentation is written in `docs/` of the broker repository and synced to the website.
 
-1.  **Fork the repository** on GitHub (e.g., `package-broker/server` or `package-broker/docs`).
-2.  **Clone your fork** locally:
-    ```bash
-    git clone https://github.com/your-username/package-broker-server.git
-    cd package-broker-server
-    ```
-    Or for the docs repository:
-    ```bash
-    git clone https://github.com/your-username/package-broker-docs.git
-    cd package-broker-docs
-    ```
-3.  **Install dependencies**:
-    ```bash
-    npm install
-    ```
-4.  **Set up your environment** (for `package-broker/server`):
-    - Copy `env.example` to `.env` or set up your `wrangler.toml` vars.
-    - Create a local D1 database: `npx wrangler d1 create composer-proxy-db`.
-    - Apply migrations: `npx wrangler d1 migrations apply composer-proxy-db --local`.
-
-## Development Workflow
-
-- **Branching**: Create a new branch for your feature or bugfix (e.g., `feature/awesome-new-feature` or `fix/login-bug`).
-- **Code Style**: We use ESLint and Prettier. Run `npm run lint` to check for style issues.
-- **Testing**:
-    - **Unit Tests**: Run `npm test` to run Vitest unit tests.
-    - **Type Checking**: Run `npm run typecheck` to ensure type safety.
-    - **E2E Tests**: (Optional) Run `npm run test:e2e` for end-to-end testing with Playwright.
-
-## Submitting a Pull Request
-
-1.  Ensure all tests pass and there are no linting errors.
-2.  Push your branch to your fork.
-3.  Open a Pull Request against the `main` branch of the appropriate repository.
-4.  Provide a clear description of your changes and reference any related issues.
-
-## Reporting Bugs
-
-Please use the [Bug Report Template](.github/ISSUE_TEMPLATE/bug_report.md) to report bugs. Be sure to include:
-- A clear description of the issue.
-- Steps to reproduce.
-- Expected vs. actual behavior.
-- Logs or screenshots if applicable.
-
-## Feature Requests
-
-Have an idea? Use the [Feature Request Template](.github/ISSUE_TEMPLATE/feature_request.md) to suggest new features.
-
-Thank you for contributing!
+PACKAGE.broker 1.x repositories are end of life and do not accept contributions.
